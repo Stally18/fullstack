@@ -1,0 +1,188 @@
+.wrapper {
+    min-height: 100vh;
+}
+.container {
+    max-width: 1060px;
+    margin: 0 auto;
+    padding: 0 60px;
+}
+.headbanner1 {
+    background-color: steelblue;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header ul li {
+    display: flex;
+    font-size: small;
+    padding: 5px 5px;
+}
+
+.headbanner2 {
+    background-color: cornflowerblue;
+}
+
+.menu {
+    border-bottom: darkgrey solid 1px;
+}
+
+.headbanner2 .container {
+    justify-content: space-between;
+}
+
+.headbanner2 .content .container {
+    padding-top: 24px;
+    display: flex;
+}
+
+.headbanner2 .content input {
+    border: 0;
+    height: 40px;
+    border-radius: 5px;
+    width: 400px;
+}
+
+.headbanner2 .content button {
+    height: 40px;
+    border: 0;
+    background-color: darkslateblue;
+    border-radius: 5px;
+}
+
+.basket {
+    display: flex;
+}
+
+.basket .logo {
+    margin-right: 20px;
+}
+
+main ul {
+    display: flex;
+    justify-content: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+main ul li {
+    display: flex;
+    font-size: small;
+    padding: 5px 5px;
+}
+
+header .text {
+    color: white;
+}
+
+main .text {
+    color: black;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.small {
+    font-size: smaller;
+}
+
+.left {
+    text-align: left;
+    margin-left: 15px;
+}
+
+.green {
+    color: limegreen;
+}
+
+.blue {
+    color: cornflowerblue;
+}
+
+.highlight {
+    color: red;
+}
+
+.banners-batch {
+    display: flex;
+    padding-top: 100px;
+}
+
+.banners-row {
+    display: flex;
+    padding-top: 20px;
+}
+
+.banner {
+    text-align: center;
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 5px;
+    margin-right: 20px;
+    transition: all 0.1s ease-in-out;
+}
+
+.banner::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+    transition: opacity 0.1s ease-in-out;
+}
+
+.banner:hover::after {
+    opacity: 1;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.center-logo img {
+    width: 40%;
+    margin-top: 10px;
+}
+
+.left-logo img {
+
+    background-color: lightgray;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.btn-banner {
+    width: 100%;
+    height: 60px;
+    background-color: limegreen;
+    color: #fff;
+    border-radius: 0;
+}
+
+.center {
+    align-text: center;
+    padding: 10px;
+}
+
+.leftside {
+
+}
+
+.flex {
+    display: flex;
+}
