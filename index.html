@@ -29,14 +29,40 @@
                         <li><div class="text">Доставка и оплата</div></li>
                         <li><div class="text">Бонусная программа</div></li>
                         <li><div class="text">Партнёрская программа</div></li>
-                        <div class="text bold">Войти</div>
+                        <!-- i gave up on login form -->
+                        <a class="text bold login" data-bs-toggle="modal" data-bs-target="#myForm">Войти</a>
+                        <div class="modal" id="myForm">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+
+                                    <!-- Modal Header -->
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Modal Heading</h4>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                    </div>
+
+                                    <!-- Modal body -->
+                                    <div class="modal-body">
+                                        Modal body..
+                                    </div>
+
+                                    <!-- Modal footer -->
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
                     </ul>
                     </div>
                 </div>
                 <div class="content">
                     <div class="container">
                         <div class="logo">
+                            <a href="index.html">
                             <img src="https://www.chitai-gorod.ru/ii/img/logo/main_logo_white.svg">
+                            </a>
                         </div>
                         <label>
                             <input placeholder="Поиск..."/><button><img src="https://d1bd5u3q1t3nu7.cloudfront.net/icons/297/magnifying-glass-icon-256.png" height="40px"></button>
@@ -60,42 +86,42 @@
             <div class="menu">
                     <ul>
                         <li class="nav-item dropdown">
-                            <div class="text bold">Книги</div>
+                            <a href="catalog.html"><div class="text bold">Книги</div></a>
                             <ul class="dropdown-menu">
                                 <li><div class="dropdown-block">
                                     <div class="text bold">Жанры</div><br>
 
-                                    <div class="text">Художественная литература</div>
-                                    <div class="text">Книги для детей</div>
-                                    <div class="text">Образование</div>
-                                    <div class="text">Наука и техника</div>
-                                    <div class="text">Общество</div>
-                                    <div class="text">Деловая литература</div>
-                                    <div class="text">Красота. Здоровье. Спорт</div>
-                                    <div class="text">Увлечения</div>
-                                    <div class="text">Психология</div>
-                                    <div class="text">Эзотерика</div>
-                                    <div class="text">Философия и религия</div>
-                                    <div class="text">Искусство</div>
-                                    <div class="text">Подарочные издания</div>
-                                    <div class="text">Книги на иностранных языках</div>
-                                    <div class="text">Книги с автографом</div>
+                                    <div class="text medium">Художественная литература</div>
+                                    <div class="text medium">Книги для детей</div>
+                                    <div class="text medium">Образование</div>
+                                    <div class="text medium">Наука и техника</div>
+                                    <div class="text medium">Общество</div>
+                                    <div class="text medium">Деловая литература</div>
+                                    <div class="text medium">Красота. Здоровье. Спорт</div>
+                                    <div class="text medium">Увлечения</div>
+                                    <div class="text medium">Психология</div>
+                                    <div class="text medium">Эзотерика</div>
+                                    <div class="text medium">Философия и религия</div>
+                                    <div class="text medium">Искусство</div>
+                                    <div class="text medium">Подарочные издания</div>
+                                    <div class="text medium">Книги на иностранных языках</div>
+                                    <div class="text medium">Книги с автографом</div>
                                 </div></li>
                                 <li><div class="dropdown-block">
                                     <div class="text bold">Подборки</div><br>
-                                    Новинки литературы
-                                    Лучшие из лучших
-                                    Книги, которые помогают действовать
-                                    Скоро в продаже
-                                    Под покровом ночи
+                                    <div class="text medium">Новинки литературы</div>
+                                    <div class="text medium">Лучшие из лучших</div>
+                                    <div class="text medium">Книги, которые помогают действовать</div>
+                                    <div class="text medium">Скоро в продаже</div>
+                                    <div class="text medium">Под покровом ночи</div>
                                 </div></li>
                                 <li><div class="dropdown-block">
                                     <div class="text bold">Издательства</div><br>
-                                    Эксмо
-                                    АСТ
-                                    Азбука
-                                    Альпина Паблишер
-                                    Росмэн
+                                    <div class="text medium">Эксмо</div>
+                                    <div class="text medium">АСТ</div>
+                                    <div class="text medium">Азбука</div>
+                                    <div class="text medium">Альпина Паблишер</div>
+                                    <div class="text medium">Росмэн</div>
                                 </div></li>
                                 <li><div class="dropdown-block"><img src="https://img-gorod.ru/uf/49/308/49308.jpg"></div></li>
                             </ul>
@@ -191,11 +217,13 @@
                 </a>
                 <div class="card">
                     <a href="">
-                        <img src="https://img-gorod.ru/29/026/2902605_preview.jpg"><br>
+                        <div class="text-center">
+                            <img src="https://img-gorod.ru/29/026/2902605_preview.jpg">
+                        </div>
                         <div class="text">Стальной Алхимик. Книга 16</div>
                         <div class="lowlight">Аракава Х.</div>
                     </a><br>
-                    <div class="bold ">999 ₽</div>
+                    <div class="bold large">999 ₽</div>
                     <div class="buttons">
                         <button><img src="">Купить</button> <div class="favourite"><img src="">И</div>
                     </div>
@@ -208,40 +236,92 @@
                         <div class="text">Стальной Алхимик. Книга 16</div>
                         <div class="lowlight">Аракава Х.</div>
                     </a><br>
-                    <div class="bold ">999 ₽</div>
+                    <div class="bold large">999 ₽</div>
                     <div class="buttons">
                         <button><img src="">Купить</button> <div class="favourite"><img src="">И</div>
                     </div>
                 </div>
                 <div class="card">
                     <a href="">
-                        <img src="https://img-gorod.ru/29/026/2902605_preview.jpg"><br>
+                        <div class="text-center">
+                            <img src="https://img-gorod.ru/29/026/2902605_preview.jpg">
+                        </div>
                         <div class="text">Стальной Алхимик. Книга 16</div>
                         <div class="lowlight">Аракава Х.</div>
                     </a><br>
-                    <div class="bold ">999 ₽</div>
+                    <div class="bold large">999 ₽</div>
                     <div class="buttons">
                         <button><img src="">Купить</button> <div class="favourite"><img src="">И</div>
                     </div>
                 </div>
                 <div class="card">
                     <a href="">
-                        <img src="https://img-gorod.ru/29/026/2902605_preview.jpg"><br>
+                        <div class="text-center">
+                            <img src="https://img-gorod.ru/29/026/2902605_preview.jpg">
+                        </div>
                         <div class="text">Стальной Алхимик. Книга 16</div>
                         <div class="lowlight">Аракава Х.</div>
                     </a><br>
-                    <div class="bold ">999 ₽</div>
+                    <div class="bold large">999 ₽</div>
+                    <div class="buttons">
+                        <button><img src="">Купить</button> <div class="favourite"><img src="">И</div>
+                    </div>
+                </div>
+            </div>
+            <div class="collection">
+                <a href="">
+                    <div class="collection-header bold blue">
+                        Новинки литературы
+                    </div>
+                </a>
+                <div class="card">
+                    <a href="">
+                        <div class="text-center">
+                            <img src="https://img-gorod.ru/29/026/2902605_preview.jpg">
+                        </div>
+                        <div class="text">Стальной Алхимик. Книга 16</div>
+                        <div class="lowlight">Аракава Х.</div>
+                    </a><br>
+                    <div class="bold large">999 ₽</div>
                     <div class="buttons">
                         <button><img src="">Купить</button> <div class="favourite"><img src="">И</div>
                     </div>
                 </div>
                 <div class="card">
                     <a href="">
-                        <img src="https://img-gorod.ru/29/026/2902605_preview.jpg"><br>
+                        <div class="text-center">
+                            <img src="https://img-gorod.ru/29/026/2902605_preview.jpg">
+                        </div>
                         <div class="text">Стальной Алхимик. Книга 16</div>
                         <div class="lowlight">Аракава Х.</div>
                     </a><br>
-                    <div class="bold ">999 ₽</div>
+                    <div class="bold large">999 ₽</div>
+                    <div class="buttons">
+                        <button><img src="">Купить</button> <div class="favourite"><img src="">И</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <a href="">
+                        <div class="text-center">
+                            <img src="https://img-gorod.ru/29/026/2902605_preview.jpg">
+                        </div>
+                        <div class="text">Стальной Алхимик. Книга 16</div>
+                        <div class="lowlight">Аракава Х.</div>
+                    </a><br>
+                    <div class="bold large">999 ₽</div>
+                    <div class="buttons">
+                        <button><img src="">Купить</button> <div class="favourite"><img src="">И</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <a href="">
+                        <div class="text-center">
+                            <img src="https://img-gorod.ru/29/026/2902605_preview.jpg">
+                        </div>
+                        <div class="text">Стальной Алхимик. Книга 16</div>
+                        <div class="lowlight">Аракава Х.</div>
+                    </a><br>
+                    <div class="bold large">999 ₽</div>
                     <div class="buttons">
                         <button><img src="">Купить</button> <div class="favourite"><img src="">И</div>
                     </div>
